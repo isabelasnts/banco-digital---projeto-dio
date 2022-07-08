@@ -4,8 +4,8 @@ public class Main{
         Cliente isa = new Cliente();
         isa.setNome("isa");
 
-        Conta cc = new contaCorrente(isa);
-        Conta poupanca = new contaPoupanca (isa);
+        Conta cc = new ContaCorrente(isa);
+        Conta poupanca = new ContaPoupanca (isa);
 
         cc.depositar(500);
         cc.transferir(200, poupanca);
