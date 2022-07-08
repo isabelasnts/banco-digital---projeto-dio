@@ -1,6 +1,6 @@
-public class contaPoupanca extends Conta{
+public class ContaPoupanca extends Conta{
 
-    public contaPoupanca(Cliente cliente){
+    public ContaPoupanca(Cliente cliente){
         super (cliente);
     }
 
